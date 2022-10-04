@@ -1,0 +1,93 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth; 
+}
+
+.body {
+  font-size: 10px;
+  line-height: 10px;
+  color: #5D5D5D;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: 'GothamProRegular';
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; 
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background: #FFFFFF;
+}
+
+.figcaption1 p, .figcaption2 p, .figcaption3 p, .figcaption4 p {
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+.figcaption1, .figcaption2, .figcaption3, .figcaption4 {
+  position: relative;
+  z-index: 10;
+  background-color: #F7F7F7;
+}
+
+.figcaption1 {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -ms-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+.block_vsplv1:hover .figcaption1 {
+    opacity: 1;
+}
+
+.figcaption2 {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -ms-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+.block_vsplv2:hover .figcaption2 {
+    opacity: 1;
+}
+
+.figcaption3 {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -ms-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+.block_vsplv3:hover .figcaption3 {
+    opacity: 1;
+}
+
+.figcaption4 {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -ms-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+.block_vsplv4:hover .figcaption4 {
+    opacity: 1;
+}

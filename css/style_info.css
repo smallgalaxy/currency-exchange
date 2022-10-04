@@ -1,0 +1,454 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth; 
+}
+
+.body {
+  font-size: 10px;
+  line-height: 10px;
+  color: #5D5D5D;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: 'GothamProRegular';
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; 
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background: #FFFFFF;
+}
+
+.header, .section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container1 {
+  width: 100%;
+}
+
+.container1 {
+	position: absolute;
+}
+
+.menu_and_logo {
+  position: absolute;
+  height: 54px;
+  display: flex;
+  background-color: #FFFFFF;
+}
+
+.logo_image_text, .xz2, .reg {
+  display: flex;
+  vertical-align: center;
+  cursor: pointer;
+}
+
+.menu_and_logo {
+  width: 100%;
+}
+
+.logo_image_text {
+  width: 16.434%;
+  margin-left: 1.7%;
+}
+
+.img_logo {
+  margin-top: 6%;
+  height: 59%;
+  width: 18%;
+}
+
+.text_logo {
+  height: 22%;
+  width: 72.5%;
+  margin-top: 12%;
+  margin-left: 16.6%;
+}
+
+.text_logo img {
+  margin-bottom: 2.5%;
+}
+
+.logo_text_menu {
+  width: 24.417%;
+  margin-left: 3.6%;
+}
+
+.xz2 {
+  height: 100%;
+}
+
+.logo_text_menu_p {
+  margin-top: 6.5%;
+  margin-right: 11%;
+}
+
+.logo_text_menu p {
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.reg {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 15.5%;
+  margin-right: 1.4%;
+  margin-left: 33%;
+}
+
+.img_reg {
+  margin-top: 7.7%;
+  width: 14.1%;
+  margin-right: 10%;
+}
+
+.reg_p p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1em;
+  line-height: 1.1em;
+
+  color: #5D5D5D;
+}
+
+.reg_p {
+  margin-top: 11%;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+.large {
+	width: 100%;
+	height: 900px;
+	margin-top: 6%;
+}
+
+.VIP {
+	margin-top: 9.26%;
+	margin-left: 17.39%;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 4.7em;
+	color: #3D4B71;
+}
+
+.one {
+	width: 13.91%;
+	height: 84%;
+	margin-left: 1.739%;
+	margin-top: 3.45%;
+	padding-top: 4.5%;
+	padding-left: 2.086%;
+
+	border: 1px solid #F4F4F4;
+	background: #F4F4F4;
+	border-radius: 4.05111px;
+}
+
+.one h1 {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.2em;
+	color: #3D4B71;
+}
+
+.one h2 {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.2em;
+	color: #3D4B71;
+	margin-top: 17%;
+}
+
+.one h3 {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #3D4B71;
+	margin-top: 17%;
+}
+
+.tire {
+	margin-top: 7%;
+	display: flex;
+}
+
+.tire_tire {
+	margin-top: 5%;
+}
+
+.tire_text {
+	cursor: pointer;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1em;
+	line-height: 1.7em;
+	margin-right: 11.19%;
+	margin-left: 5.22%;
+	color: #3D4B71;
+}
+
+.rblock1 {
+	margin-top: 2%;
+	height: 34.88%;
+	display: flex;
+}
+
+.muzjikk {
+	display: flex;
+	width: 46.95%;
+	height: 84%;
+	border: 1px solid #F4F4F4;
+	background: #F4F4F4;
+	border-radius: 4.05111px;
+	margin-left: 1.73%;
+	margin-top: 3.45%;
+}
+
+.fotka_muzjika {
+	width: 36.11%;
+	height: 100%;
+	padding-left: 9.44%;
+	padding-top: 7.24%;
+}
+
+.fotka_muzjika img {
+	border-radius: 100%;
+}
+
+.round {
+	width: 100%;
+  }
+
+.round img {
+	border-radius: 100%;
+}
+
+.text_men {
+	position: relative;
+	bottom: 17px;
+}
+
+.elly {
+	margin-left: 39%;
+	width: 23.6%;
+}
+
+.znak_vip {
+	margin-left: 39.8%;
+	display: flex;
+}
+
+.Vtxt, .Vlvl {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	color: #F2923B;
+}
+
+.Vtxt {
+	margin-right: 8.04%;
+}
+
+.name_muzjika1 {
+	margin-bottom: 7.6%;
+	margin-right: 15%;
+	margin-top: 12.1%;
+	margin-left: 7.7%;
+}
+
+.name_muzjika1 p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.3em;
+	line-height: 209.2%;
+	color: #454545;
+}
+
+.name {
+	display: flex;
+}
+
+.name1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.6em;
+	color: #3D4B71;
+	margin-bottom: 11%;
+}
+
+.galka1 {
+	width: 7.44%;
+	margin-left: 4%;
+	position: relative;
+	bottom: 6px;
+
+}
+
+.Email {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.4em;
+	line-height: 0.93em;
+	text-decoration-line: underline;
+	color: #3D4B71;
+	margin-bottom: 11%;
+}
+
+.Learn_more {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.4em;
+	line-height: 0.95em;
+	text-decoration-line: underline;
+	color: #3D4B71;	
+	margin-bottom: 12.5%;
+}
+
+.butt_info {
+	width: 215px;
+	height: 31.3%;
+
+	padding: 0;
+	text-align: center;
+
+	background: #3D4B71;
+	border: 1px solid #3D4B71;
+	border-radius: 7.24638px;	
+
+	cursor: pointer;
+  	outline: none;
+  	-moz-transition: background-color 0.3s 0.2s line;
+  	-o-transition: background-color 0.3s 0.2s line;
+ 	-webkit-transition: background-color 0.3s 0.2s line;
+}
+
+.butt_info:hover {
+  color: #FFFFFF;
+  outline: none;
+  background: #5b70a9; 
+}
+
+.ingo_but {
+	margin: auto;
+	width: 76.2%;
+	display: flex;
+}
+
+.img_ver {
+	margin-top: 5%;
+	margin-right: 5.1%;
+	width: 12.3%;
+}
+
+.but_p {
+	width: 61.39%;
+	margin-top: 2.5%;
+}
+
+.but_p p {
+	font-weight: 100;
+	font-style: normal;
+	font-size: 1.1em;
+	color: #FFFFFF;
+}
+
+.text_vip {
+	margin-left: 17.39%;
+	margin-top: 2.88%;
+}
+
+.text_vip h1 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2.1em;
+	line-height: 135.7%;
+	color: #3D4B71;	
+}
+
+.info {
+	display: flex;
+	margin-top: 2.6%;
+}
+
+.border_vip_lvl {
+	padding-top: 3%;
+	padding-bottom: 3.11%;
+	padding-right: 3.913%;
+	padding-left: 3.913%;
+	margin-right: 2.43%;
+	width: 13.65%;
+	height: 18.77%;
+	border: 1px solid #F2923B;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.info_vip {
+	width: 97%;
+	height: 40.77%;
+}
+
+.info_text {
+	position: relative;
+	bottom: 363px;
+
+	display: flex;
+
+	width: 100%;
+	height: 40.3%;
+
+	padding-bottom: 8.5%;
+	padding-left: 5.54%;
+	padding-top: 3.6%;
+	padding-right: 6.95%;
+}
+
+.text_one {
+	margin-right: 5.54%;
+}
+
+.info_text h1 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 2em;
+	color: #9D9D9D;
+	margin-bottom: 6.26%;
+}
+
+.info_text p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.4em;
+	line-height: 209.2%;
+	color: #454545;
+}
+
+.info_text h2 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 2em;
+	color: #9D9D9D;
+	margin-bottom: 6.26%;
+}

@@ -1,0 +1,379 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth; 
+}
+
+.body {
+  font-size: 10px;
+  line-height: 10px;
+  color: #5D5D5D;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: 'GothamProRegular';
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; 
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background: #FFFFFF;
+}
+
+.header, .section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container1 {
+  width: 100%;
+}
+
+.container1 {
+	position: absolute;
+}
+
+.menu_and_logo {
+  position: absolute;
+  height: 54px;
+  display: flex;
+  background-color: #FFFFFF;
+}
+
+.logo_image_text, .xz2, .reg {
+  display: flex;
+  vertical-align: center;
+  cursor: pointer;
+}
+
+.menu_and_logo {
+  width: 100%;
+}
+
+.logo_image_text {
+  width: 16.434%;
+  margin-left: 1.7%;
+}
+
+.img_logo {
+  margin-top: 6%;
+  height: 59%;
+  width: 18%;
+}
+
+.text_logo {
+  height: 22%;
+  width: 72.5%;
+  margin-top: 12%;
+  margin-left: 16.6%;
+}
+
+.text_logo img {
+  margin-bottom: 2.5%;
+}
+
+.logo_text_menu {
+  width: 24.417%;
+  margin-left: 3.6%;
+}
+
+.xz2 {
+  height: 100%;
+}
+
+.logo_text_menu_p {
+  margin-top: 6.5%;
+  margin-right: 11%;
+}
+
+.logo_text_menu p {
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.reg {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 15.5%;
+  margin-right: 1.4%;
+  margin-left: 33%;
+}
+
+.img_reg {
+  margin-top: 7.7%;
+  width: 14.1%;
+  margin-right: 10%;
+}
+
+.reg_p p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1em;
+  line-height: 1.1em;
+
+  color: #5D5D5D;
+}
+
+.reg_p {
+  margin-top: 11%;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+.large {
+	width: 100%;
+	height: 900px;
+	margin-top: 6%;
+}
+
+.VIP {
+	margin-top: 9.26%;
+	margin-left: 17.39%;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 4.7em;
+	color: #3D4B71;
+}
+
+.one {
+	width: 13.91%;
+	height: 84%;
+	margin-left: 1.739%;
+	margin-top: 3.45%;
+	padding-top: 4.5%;
+	padding-left: 2.086%;
+
+	border: 1px solid #F4F4F4;
+	background: #F4F4F4;
+	border-radius: 4.05111px;
+}
+
+.one h1 {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.2em;
+	color: #3D4B71;
+}
+
+.one h2 {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.2em;
+	color: #3D4B71;
+	margin-top: 17%;
+}
+
+.one h3 {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #3D4B71;
+	margin-top: 17%;
+}
+
+.tire {
+	margin-top: 7%;
+	display: flex;
+}
+
+.tire_tire {
+	margin-top: 5%;
+}
+
+.tire_text {
+	cursor: pointer;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1em;
+	line-height: 1.7em;
+	margin-right: 11.19%;
+	margin-left: 5.22%;
+	color: #3D4B71;
+}
+
+.rblock1 {
+	margin-top: 2%;
+	height: 34.88%;
+	display: flex;
+}
+
+.muzjikk {
+	display: flex;
+	width: 22%;
+	height: 94.58%;
+	border: 1px solid #F4F4F4;
+	background: #F4F4F4;
+	border-radius: 4.05111px;
+	margin-left: 1.73%;
+	margin-top: 3.45%;
+}
+
+.fotka_muzjika {
+	width: 79.44%;
+	height: 55.89%;
+	margin-top: 15.15%;
+	margin-left: 19.76%;
+}
+
+.round {
+	width: 73%;
+  }
+
+.round img {
+	border-radius: 100%;
+}
+
+.text_men {
+	position: relative;
+	bottom: 17px;
+}
+
+.elly {
+	margin-left: 29%;
+	width: 17%;
+}
+
+.znak_vip {
+	margin-left: 30%;
+	display: flex;
+}
+
+.Vtxt, .Vlvl {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	color: #F2923B;
+}
+
+.Vtxt {
+	margin-right: 4.04%;
+}
+
+.name_muzjika1 {
+	display: flex;
+	margin-top: 10.22%;
+	margin-left: 3.5%;
+}
+
+.name1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.6em;
+	color: #3D4B71;
+}
+
+.galka2 {
+	width: 8.29%;
+	margin-left: 4%;
+	position: relative;
+	top: -2px;
+}
+
+.descr {
+	margin-top: 3.45%;
+	margin-left: 2.6%;
+	color: #3D4B71;
+}
+
+.n {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2em;
+	line-height: 135.7%;
+}
+.s {
+	margin-top: 8.1%;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.6em;
+}
+
+.hreff {
+	display: flex;
+	margin-top: 9.858%;
+}
+
+.img_hreff {
+	width: 6.33%;
+}
+
+.hreff p {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.6em;
+	line-height: 1em;
+	text-decoration-line: underline;
+	margin-left: 3.521%;
+}
+.refs {
+	height: 20.44%;
+	display: flex;
+	margin-top: 30%;
+}
+
+.refs p {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2.1em;
+}
+
+.number {
+	height: 100%;
+	width: 15.84%;
+	background: #F4F4F4;
+	border-radius: 4.05111px;
+	margin-left: 2.816%;
+	position: relative;
+	bottom: 20px; 
+	text-align: center;
+	padding-top: 22px;
+}
+
+.info_ref {
+	width: 80%;
+	height: 46.77%;
+	margin-left: 17.39%;
+	margin-top: 4.44%;
+}
+
+.info_text2 {
+	position: relative;
+	bottom: 409px; 
+	padding-right: 10.34%;
+	padding-left: 5.55%;
+	padding-top: 5.33%;
+}
+
+.info_text2 h1 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 1em;
+	color: #9D9D9D;
+	margin-bottom: 4.06%;
+}
+
+.info_text2 p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.4em;
+	line-height: 209.2%;
+	color: #454545;
+}

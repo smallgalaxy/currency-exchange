@@ -1,0 +1,301 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth; 
+}
+
+.body {
+  font-size: 10px;
+  line-height: 10px;
+  color: #5D5D5D;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: 'GothamProRegular';
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; 
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background: #FFFFFF;
+}
+
+.header, .section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+}
+
+.container {
+	position: absolute;
+}
+
+.menu_and_logo {
+  position: absolute;
+  height: 54px;
+  display: flex;
+  background-color: #FFFFFF;
+}
+
+.logo_image_text, .xz2, .reg {
+  display: flex;
+  vertical-align: center;
+  cursor: pointer;
+}
+
+.menu_and_logo {
+  width: 100%;
+}
+
+.logo_image_text {
+  width: 16.434%;
+  margin-left: 1.7%;
+}
+
+.img_logo {
+  margin-top: 6%;
+  height: 59%;
+  width: 18%;
+}
+
+.text_logo {
+  height: 22%;
+  width: 72.5%;
+  margin-top: 12%;
+  margin-left: 16.6%;
+}
+
+.text_logo img {
+  margin-bottom: 2.5%;
+}
+
+.logo_text_menu {
+  width: 24.417%;
+  margin-left: 3.6%;
+}
+
+.xz2 {
+  height: 100%;
+}
+
+.logo_text_menu_p {
+  margin-top: 6.5%;
+  margin-right: 11%;
+}
+
+.logo_text_menu p {
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.reg {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 15.5%;
+  margin-right: 1.4%;
+  margin-left: 33%;
+}
+
+.img_reg {
+  margin-top: 7.7%;
+  width: 14.1%;
+  margin-right: 10%;
+}
+
+.reg_p p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1em;
+  line-height: 1.1em;
+
+  color: #5D5D5D;
+}
+
+.reg_p {
+  margin-top: 11%;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+.large {
+	width: 100%;
+	margin-top: 6.38%;
+}
+
+.VIP {
+	margin-top: 8.47%;
+	margin-left: 13.65%;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 4.7em;
+	line-height: 1.5em;
+	color: #3D4B71;
+}
+
+.rblock1 {
+	height: 93.78%;
+}
+
+.one {
+	position: absolute;
+	width: 13.91%;
+	height: 38.18%;
+	left: 1.739%;
+	margin-top: 3.479%;
+	padding-top: 3.449%;
+	padding-left: 1.739%;
+
+	border: 1px solid #F4F4F4;
+	background: #F4F4F4;
+	border-radius: 4.05111px;
+}
+
+.one h1 {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.2em;
+	color: #3D4B71;
+}
+
+.one h2 {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.2em;
+	color: #3D4B71;
+	margin-top: 20.225%;
+}
+
+.one h3 {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #3D4B71;
+	margin-top: 20.225%;
+}
+
+.tire {
+	padding-top: 7%;
+	display: flex;
+}
+
+.tire_tire {
+	margin-top: 5%;
+}
+
+.tire_text {
+	cursor: pointer;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1em;
+	line-height: 173.5%;
+	margin-right: 9.375%;
+	margin-left: 4.375%;
+	color: #3D4B71;
+}
+
+.rblock1 {
+	display: flex;
+}
+
+.history {
+	margin-top: 3.479%;
+	width: 80%;
+	background: #F4F4F4;
+	border-radius: 4.05111px;
+	margin-left: 17.391%;	
+	margin-bottom: 17.8%;
+}
+
+.img_table {
+	width: 20.56%;
+}
+
+table {
+	width: 100%;
+	padding-right: 3.152%;
+	padding-left: 2.391%;
+	padding-top: 3.477%;
+	margin-bottom: 4.424%;
+}
+
+.top td {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	color: #888888;
+}
+
+th, td {
+	text-align: center;
+}
+
+.round-top td {
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.td1 {
+	font-weight: bold;
+	color: #3D4B71;
+}
+
+.td1, .td3, .td4, .td5, .td6, .td7 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	color: #000000;
+}
+
+.td1, .td2, .td3, .td4, .td5, .td6, .td7 {
+	padding-bottom: 4%;
+	padding-top: 4%;
+}
+
+.butt {
+	margin-left: 38.5869%;
+	margin-bottom: 8%;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	color: #000000;
+
+	width: 22.826%;
+	height: 9.523%;
+
+	border: 0.832579px solid #C2C3C7;
+	box-sizing: border-box;
+	border-radius: 649.412px;
+
+	cursor: pointer;
+  	outline: none;
+  	-moz-transition: background-color 0.3s 0.2s line;
+  	-o-transition: background-color 0.3s 0.2s line;
+  	-webkit-transition: background-color 0.3s 0.2s line; 
+}
+
+.butt:hover {
+  color: #FFFFFF;
+  outline: none;
+  background: #5b70a9; 
+}
