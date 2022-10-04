@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	<title>Сайт</title>
+
+	<link rel = "preconnect" href = "https://fonts.gstatic.com">
+	<link href = "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel ="stylesheet">
+	<link rel="stylesheet" href="css/stylename.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="css/out.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="css/block.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="css/style_reg.css" type="text/css" charset="utf-8">
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="js/slider.js"></script>
+	<script src='js/adaptation4.js'></script>
+	<script src='js/okna_reg.js'></script>
+
+</head>
+<body class="body">
+	<header id='header_return' class="header">
+		<div class='container1'>
+			<div>
+				<nav class='menu_and_logo'>
+					<div class='logo_image_text' onclick="document.location='#header_return'">
+						<div class="img_logo">
+							<img src="img/Group 1.svg">
+						</div>
+								
+						<div class="text_logo">
+							<img src="img/XMLID 2.svg">
+						</div>
+					</div>	
+
+					<div class="logo_text_menu">
+						<div class="xz2">
+							<div class="logo_text_menu_p block_vsplv1">
+								<p onclick="document.location='#'">Новости</p>
+								<div class="figcaption1">
+									<div class="p_block"><p onclick="document.location='news.html'">Новости</p></div>
+								    <div class="p_block"><p onclick="document.location='news.html'">Аналитика</p></div>
+								    <div class="p_block"><p onclick="document.location='news.html'">сигналы нашей команды</p></div>
+								</div>
+							</div>
+
+							<div class="logo_text_menu_p block_vsplv2">
+								<p onclick="document.location='#'">Поддержка</p>
+								<div class="figcaption2">
+									<div class="p_block"><p onclick="document.location='FAQ.html'">F.A.Q.</p></div>
+								    <div class="p_block"><p onclick="document.location='in.html'">Соглашение</p></div>
+								    <div class="p_block"><p onclick="document.location='balance.html'">Контакты</p></div>
+								    
+								</div>
+							</div>
+
+							<div class="logo_text_menu_p block_vsplv3">
+								<p onclick="document.location='#'">Финансы</p>
+								<div class="figcaption3">
+									<div class="p_block"><p onclick="document.location='swap.html'">Обмен</p></div>
+								    <div class="p_block"><p onclick="document.location='Deposit_withdrawal.html'">Финансы</p></div>
+								    <div class="p_block"><p onclick="document.location='history.html'">История</p></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class='reg block_vsplv4' onclick="document.location='#'">
+						<div class="img_reg">
+							<img src="img/Group 725.svg">
+						</div>
+						
+						<div class="reg_p"><p onclick="show('block')" class="regButton">Вход/регистрация</p>
+							<div class="figcaption4">
+								<div class="p_block"><p onclick="document.location='information.html'">Базовая информация</p></div>
+								<div class="p_block"><p onclick="document.location='VIP.html'">VIP статус</p></div>
+								<div class="p_block"><p onclick="document.location='Referal Program.html'">Реферальная система</p></div>
+								<div class="p_block"><p>Выход</p></div>
+							</div>
+						</div>
+					</div>		
+				</nav>
+			</div>
+
+			<div class="large">
+				<p class="VIP">Вывод</p>
+
+				<div class="rblock1">
+					<div class="one">
+						<h1 onclick="document.location='swap.html'">Обмен</h1>
+
+						<div class="tire">
+							<p class="tire_tire"></p>
+							<p onclick="document.location='in.html'" class="tire_text">Ввод</p>
+						</div>
+
+						<div class="tire">
+							<p class="tire_tire"></p>
+							<p onclick="document.location='out.html'" class="tire_text">Вывод</p>
+						</div>
+
+						<h2 onclick="document.location='balance.html'">Балансы</h2>
+						<h3 onclick="document.location='history.html'">История</h3>
+					</div>
+
+					<div class="block_obmen">
+						<div class="currency">
+							<div class="currency_in">
+								<p class="p">Валюта</p>
+
+								<div class="input_text">
+									<p><input class="input" type="text" name="traid" placeholder="Bitcoin"></p>	
+
+									<div class="size_img1">
+										<img src="img/Vector bit.svg">
+									</div>
+
+									<p class="p_input">Баланс: 1,000134</p>
+									
+									<div class="size_img2">
+										<img src="img/Vector 12.svg">
+									</div>
+								</div>
+							</div>
+
+							<div class="info">
+								<div class="input_text2">
+									<p><input class="input2" type="text" name="traid" placeholder="Адрес получателя"></p>	
+
+									<div class="size_img3">
+										<img src="img/Vector 12.svg">
+									</div>
+								</div>
+
+								<h1>Количество:</h1>
+
+								<div class='sliderr'>
+									<div class="slidecontainer">
+										<div class="count_btc">
+											<p ><span id="demo" class="spann"></span> <p class="pp">BTC</p></p>
+										</div>
+
+										<div class="elipse"><div></div><input type="range" min="0" max="100" value="0" class="slider" id="myRange"><div></div></div>
+									</div>
+								</div>
+
+								<div class="min_max">
+									<p><span>0</span> BTC</p>
+									<p><span>0,04244</span> BTC</p>
+								</div>
+
+								<div class="line"></div>
+
+								<div class="com">
+									<p class="p1">Комиссия при транзакции:</p>
+									<p>0,00030 BTC</p>
+								</div>
+
+								<div class="com">
+									<p class="p1">Вы получите:</p>
+									<p>0,001 BTC</p>
+								</div>
+
+								<button class="butt3">Отправить</button>
+							</div>
+						</div>
+
+						<div class="history">
+							<table>
+								<tr class="top">
+							    	<td>Тип операции</td>
+							    	<td>Валюта</td>
+							    	<td>Сумма</td>
+							    	<td>Дата</td>
+							    	<td>Статус</td>
+							    	<td>Остаток на счету</td>
+								   	<td>Счет/Адрес</td>
+								</tr>
+
+							    <tr class="round-top">
+							    	<td class="td1">Покупка</td>
+							    	<td class="td2"><img class="img_table" src="img/₽.svg"></td>
+							    	<td class="td3">10 000</td>
+							    	<td class="td4">01/04/2020</td>
+							    	<td class="td5">в обработке</td>
+									<td class="td6">10 000</td>
+							    	<td class="td7">934829384</td>
+							    </tr>
+
+								<tr class="round-top">
+							    	<td class="td1">Покупка</td>
+							    	<td class="td2"><img class="img_table" src="img/₽.svg"></td>
+							    	<td class="td3">10 000</td>
+							    	<td class="td4">01/04/2020</td>
+							    	<td class="td5">в обработке</td>
+							    	<td class="td6">10 000</td>
+									<td class="td7">934829384</td>
+							    </tr>
+
+								<tr class="round-top">
+							    	<td class="td1">Покупка</td>
+							    	<td class="td2"><img class="img_table" src="img/₽.svg"></td>
+							    	<td class="td3">10 000</td>
+							    	<td class="td4">01/04/2020</td>
+							    	<td class="td5">в обработке</td>
+							    	<td class="td6">10 000</td>
+								   	<td class="td7">934829384</td>
+								    </tr>
+
+								<tr class="round-top">
+								    <td class="td1">Покупка</td>
+								    <td class="td2"><img class="img_table" src="img/₽.svg"></td>
+								    <td class="td3">10 000</td>
+								    <td class="td4">01/04/2020</td>
+								    <td class="td5">в обработке</td>
+								    <td class="td6">10 000</td>
+								    <td class="td7">934829384</td>
+								</tr>
+							</table>
+
+							<button class="butt4">Загрузить еще</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div>
+	    <div onclick="show('none')" id="gray2"></div>
+		<div id="window2">
+			    <div class="form">
+			        <h2 class="text_reg">Вход</h2>
+			        <form action="index.html" name="f1">        
+			            <input type="login" placeholder="Логин" name="email1" class="input4">
+			            <input type="password" placeholder="Пароль" name="pass1" class="input4">
+			            <div><a class="regButton form_p_two_a2">Забыли пароль?</a></div>
+			            <input type="submit" value="Войти" name="sab" class="sub">
+			            <div><a onclick="show('none'), show2('block')" class="regButton form_p_two_a3">Зарегистрироваться</a></div>
+			        </form>
+		    	</div>
+		</div>
+	</div>		
+
+	<div>
+	    <div onclick="show2('none')" id="gray"></div>
+		<div id="window">
+			    <div class="form">
+			        <h2 class="text_reg">Регистрация</h2>
+			        <form action="index.html" name="f1">        
+			            <input type="email" placeholder="Почта" name="email1" class="input4">
+			            <input type="password" placeholder="Придумайте пароль" name="pass1" class="input4">
+			            <label class="custom-checkbox">
+							<input id='on_off' class='on_off' type="checkbox" name="happy">
+							<span class='form_p_two pass aa' >Принять&nbsp;<a href='privat.html' class='form_p_two_a'>условия соглашения</label>
+			            <input type="submit" value="Зарегистрироваться" name="sab" class="sub2">
+			        </form>
+		    	</div>
+		</div>
+	</div>
+
+	<script>
+		function show3(state) {
+			document.getElementById('window3').style.display = state;
+			document.getElementById('gray3').style.display = state;
+		}
+
+		function show2(state) {
+			document.getElementById('window').style.display = state;
+			document.getElementById('gray').style.display = state;
+		}
+
+		function show(state) {
+			document.getElementById('window2').style.display = state;
+			document.getElementById('gray2').style.display = state; 
+		}
+	</script>  
+</body>
+</html>
